@@ -3,16 +3,16 @@ const mysql = require('mysql2');
 const inquirer = require('inquirer');
 
 const cTable = require('console.table');
-//const ExpandPrompt = require('inquirer/lib/prompts/expand');
-//const { QueryInterface } = require('sequelize/types');
-//const Connection = require('mysql2/typings/mysql/lib/Connection');
+const ExpandPrompt = require('inquirer/lib/prompts/expand');
+// const { QueryInterface } = require('sequelize/types');
+const Connection = require('./db/connection');
 require('dotenv').config();
 
 
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'isthiS?6',
+    password: 'aSfp31.QQi',
     database: 'employee'
 },
     console.log('Connected to employee database')
