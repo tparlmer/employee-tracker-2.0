@@ -3,9 +3,9 @@ const mysql = require('mysql2');
 const inquirer = require('inquirer');
 
 const cTable = require('console.table');
-const ExpandPrompt = require('inquirer/lib/prompts/expand');
+// const ExpandPrompt = require('inquirer/lib/prompts/expand');
 // const { QueryInterface } = require('sequelize/types');
-const Connection = require('./db/connection');
+// const Connection = require('./db/connection');
 require('dotenv').config();
 
 
